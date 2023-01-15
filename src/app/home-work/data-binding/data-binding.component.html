@@ -1,0 +1,26 @@
+<div class="box">
+  <div class="box-nav">
+    <nav class="navigation">
+      <a
+        class="button"
+        routerLink="task1"
+        routerLinkActive="activebutton"
+        ariaCurrentWhenActive="page"
+      >
+        Image
+      </a>
+      |
+      <a
+        class="button"
+        routerLink="task2"
+        routerLinkActive="activebutton"
+        ariaCurrentWhenActive="page"
+      >
+        Slider
+      </a>
+    </nav>
+  </div>
+  <div class="box-children">
+    <router-outlet></router-outlet>
+  </div>
+</div>
