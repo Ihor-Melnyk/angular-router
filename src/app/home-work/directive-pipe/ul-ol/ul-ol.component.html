@@ -1,0 +1,18 @@
+<p>ul-ol works!</p>
+
+<ul>
+  <li *ngFor="let item of items">
+    {{ item }}
+  </li>
+</ul>
+
+<ol>
+  <ng-template ngFor let-item [ngForOf]="items">
+    <li (click)="flagToggle = !flagToggle">
+      {{ item }}
+      <p [style.display]="flagToggle ? 'block' : 'none'">
+        text {{ item }} element
+      </p>
+    </li>
+  </ng-template>
+</ol>
