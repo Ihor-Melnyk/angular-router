@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-ul-ol',
@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class UlOlComponent {
   flagToggle = false;
-  items = [122, 123, 124, 125];
+  items = ['first', 'second', 'third', 'fourth'];
 }
