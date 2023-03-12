@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class RenderImageComponent {
   patronSrc: string = 'assets/patron.jpg';
-  patronWidth: number = 300;
+  patronWidth: number = 400;
 }
